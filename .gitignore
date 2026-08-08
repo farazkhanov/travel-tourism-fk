@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+.env.*.local
+
+# Vite
+frontend/dist/
+
+# Build files
+dist/
+build/
+
+# Vercel
+.vercel/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+npm-debug.log*
+
