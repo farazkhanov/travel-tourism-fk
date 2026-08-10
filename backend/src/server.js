@@ -71,8 +71,4 @@ app.use((err, req, res, next) => {
     .json({ success: false, message: err.message || "Server Error" });
 });
 
-const PORT = process.env.PORT || 5001;
-app.listen(PORT, () => {
-  console.log(`🚀 Server running on http://localhost:${PORT}`);
-  console.log(`📋 API docs: http://localhost:${PORT}/api/health`);
-});
+export default app;
